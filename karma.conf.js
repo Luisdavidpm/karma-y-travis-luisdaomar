@@ -40,12 +40,12 @@ module.exports = function(config) {
           }
     },
 
-    customLaunchers: {
+    /*customLaunchers: {
         Chrome_travis_ci: {
              base: 'Chrome',
              flags: ['--no-sandbox']
          }
-       },
+       },*/
 
 
     // list of files to exclude
@@ -108,7 +108,7 @@ module.exports = function(config) {
     singleRun: false
 
   });
-  if (process.env.TRAVIS) {
+  /*if (process.env.TRAVIS) {
         cfg.browsers = ['Chrome_travis_ci'];
-  }
+  }*/
 };
