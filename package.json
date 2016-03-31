@@ -6,6 +6,7 @@
   "scripts": {
     "test": "open index.html",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o vendor/chai.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o vendor/sinon-1.12.2.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "keywords": [
     "mocha",
     "chai",
+    "sinon",
     "testing",
     "javascript"
   ],
