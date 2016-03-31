@@ -34,6 +34,12 @@ module.exports = function(config) {
       'index.html'
     ],
 
+    client: {
+          mocha: {
+            ui: 'bdd'
+          }
+    },
+
     customLaunchers: {
         Chrome_travis_ci: {
              base: 'Chrome',
