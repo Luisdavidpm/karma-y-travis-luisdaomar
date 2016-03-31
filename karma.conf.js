@@ -34,6 +34,13 @@ module.exports = function(config) {
       'index.html'
     ],
 
+    customLaunchers: {
+        Chrome_travis_ci: {
+             base: 'Chrome',
+             flags: ['--no-sandbox']
+         }
+       },
+
 
     // list of files to exclude
     exclude: [
@@ -93,5 +100,9 @@ module.exports = function(config) {
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
     singleRun: false
+
   });
+  if (process.env.TRAVIS) {
+        cfg.browsers = ['Chrome_travis_ci'];
+  }
 };
