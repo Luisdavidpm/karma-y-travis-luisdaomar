@@ -1,5 +1,7 @@
 # Karma y Travis
 
+[![Build Status](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar.svg?branch=master)](https://travis-ci.org/Luisdavidpm/karma-y-travis-luisdaomar)
+
 * En la practica se realizó lo siguiente:
 
 ![Travis](http://i.imgur.com/5mwvOwN.png "Travis")
@@ -7,9 +9,6 @@
 Uso de karma para ver la ejecución de pruebas en diferentes navegadores.
 Uso de travis para integración continua.
 Utilización de gulp
-
-
-
 
 * Enlace del repo de la practica:
   <https://github.com/Luisdavidpm/karma-y-travis-luisdaomar>
