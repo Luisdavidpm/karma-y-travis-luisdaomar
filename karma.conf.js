@@ -31,6 +31,7 @@ module.exports = function(config) {
       'js/main.js',
       'js/medida.js',
       'js/temperatura.js',
+      'js/xregexp.js'
       'index.html'
     ],
 
